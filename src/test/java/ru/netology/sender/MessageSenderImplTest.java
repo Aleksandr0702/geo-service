@@ -1,3 +1,5 @@
+package ru.netology.sender;
+
 import org.junit.jupiter.api.*;
 import org.mockito.Mockito;
 import ru.netology.entity.Country;
@@ -6,8 +8,6 @@ import ru.netology.geo.GeoService;
 import ru.netology.geo.GeoServiceImpl;
 import ru.netology.i18n.LocalizationService;
 import ru.netology.i18n.LocalizationServiceImpl;
-import ru.netology.sender.MessageSender;
-import ru.netology.sender.MessageSenderImpl;
 import java.util.HashMap;
 import java.util.Map;
 import static ru.netology.entity.Country.RUSSIA;
